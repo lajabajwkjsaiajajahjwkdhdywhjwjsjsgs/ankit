@@ -24,8 +24,9 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001550054357"))
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID","6391774843"))
 
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", 'NxGBNexGenBots4556e3') # youtube song api ke # -------------------------------------------------------------------------#
+API_URL = getenv("API_URL", 'https://api3.nexgenbots.xyz') #youtube song url
+VIDEO_API_URL = getenv("NxGBNexGenBotsc75140", 'https://api3.nexgenbots.xyz')
+API_KEY = getenv("NxGBNexGenBotsc75140", None) # youtube song api key, generate free key or buy paid plan from https://console.nexgenbots.xyz # -------------------------------------------------------------------------#
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
