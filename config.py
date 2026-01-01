@@ -32,7 +32,7 @@ API_KEY = getenv("NxGBNexGenBotsc75140", None) # youtube song api key, generate 
 # Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME","lehar")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY","HRKU-76a2723e-ff3f-4191-b17f-d5a68b882cc8")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY",none)
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
