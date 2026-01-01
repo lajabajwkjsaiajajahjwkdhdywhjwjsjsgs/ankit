@@ -28,10 +28,10 @@ API_URL = getenv("API_URL", 'https://api3.nexgenbots.xyz') #youtube song url
 VIDEO_API_URL = getenv("NxGBNexGenBotsc75140", 'https://api3.nexgenbots.xyz')
 API_KEY = getenv("NxGBNexGenBotsc75140", None) # youtube song api key, generate free key or buy paid plan from https://console.nexgenbots.xyz # -------------------------------------------------------------------------#
 
-## Fill these variables if you're deploying on heroku.
-# Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME","lehar")
-# 
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+# ----------------------------------------------------------------
+HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+# ----------------------------------------------------------------#
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
